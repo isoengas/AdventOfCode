@@ -5,7 +5,7 @@ namespace Day2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Day 1 - Red-Nosed Reports");
+            Console.WriteLine("Day 2 - Red-Nosed Reports");
             var lines = File.ReadAllLines("input.txt");
             var safeReports = lines.Select(Parse).Count(rep => IsSafe(rep));
             Console.WriteLine("Part 1: " + safeReports);
